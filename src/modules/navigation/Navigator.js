@@ -48,11 +48,11 @@ function CustomDrawerContent(props) {
       <View style={styles.avatarContainer}>
         <Image
           style={styles.avatar}
-          source={require('../../../assets/images/drawer/user.png')}
+          source={require('../../../assets/images/drawer/bheema.jpg')}
         />
         <View style={{ paddingLeft: 15 }}>
-          <Text style={styles.userName}>John Doe</Text>
-          <Text style={{ color: '#4BC1FD' }}>Johndoe@gmail.com</Text>
+          <Text style={styles.userName}>Bheema</Text>
+          <Text style={{ color: '#4BC1FD' }}>bheemu401@gmail.com</Text>
         </View>
       </View>
       <View style={styles.divider} />

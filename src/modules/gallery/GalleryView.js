@@ -6,6 +6,7 @@ import { colors } from '../../styles';
 import { GridRow } from '../../components';
 
 export default function GalleryScreen(props) {
+  console.log("datacheck ----- ",props);
   const _keyExtractor = item =>
     item.id ? `${item.id}` : `${item[0] && item[0].id}`;
 
